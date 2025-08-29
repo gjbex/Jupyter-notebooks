@@ -1,0 +1,18 @@
+repos:
+  - repo: https://github.com/mwouts/jupytext
+    rev: v1.16.0
+    hooks:
+      - id: jupytext
+        args: ["--sync"]
+
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.7.1
+    hooks:
+      - id: nbstripout
+        # Keep outputs for trainees; strip exec counts + transient metadata.
+        # Do NOT strip 'metadata.kernelspec'.
+        args:
+          - --keep-output
+          - --extra-keys
+          # drop noisy stuff that often churns; adjust to your stack
+          - metadata.language_info,metadata.widgets,metadata.varInspector,metadata.vscode
