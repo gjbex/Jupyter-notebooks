@@ -7,7 +7,7 @@ Jupyter notebooks to illustrate various aspects and use cases for Jupyter notebo
 
 1. `paired-notebooks`: configuration files for setting up paired notebooks,
    to facilitate version control.
-1. `r_notebook.ipynb`: notebook to use with an R kernel, the notebook
+1. `r-notebooks`: use R notebooks using an R kernel in Jupyter Lab.
    contains examples of using R and R packages, as well as instructions on
    how to install the R kernel and R packages.
 1. `bash_python.ipynb`: interacting with the system shell from within
