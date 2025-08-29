@@ -1,0 +1,4 @@
+[tool.jupytext]
+formats = "ipynb,py:percent"
+notebook_metadata_filter = "kernelspec,language_info"
+cell_metadata_filter = "-all"

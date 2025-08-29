@@ -1,0 +1,24 @@
+repos:
+  # Strip outputs + execution counts from notebooks
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.7.1
+    hooks:
+      - id: nbstripout
+        # Default behavior already strips outputs & execution_count.
+        # Extra keys below reduce environment-related churn.
+        args:
+          # Drop metadata that frequently changes across machines/sessions
+          - --extra-keys
+          - >
+            metadata.language_info,
+            metadata.widgets,
+            metadata.varInspector,
+            metadata.kernelspec.display_name
+        # If you use notebooks in submodules or LFS, add: "--force" as needed
+
+  # (Optional but handy) keep general whitespace tidy in all files
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
