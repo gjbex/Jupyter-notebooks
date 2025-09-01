@@ -16,3 +16,4 @@ Jupyter notebooks to illustrate various aspects and use cases for Jupyter notebo
    interactive notebooks.
 1. `bash-python`: interacting with the system shell from within a notebook.
 1. `r-python`: interacting with R from within a Python notebook.
+1. `slides`: examples of creating slideshows from notebooks.
