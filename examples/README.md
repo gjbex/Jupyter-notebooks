@@ -15,7 +15,4 @@ Jupyter notebooks to illustrate various aspects and use cases for Jupyter notebo
 1. `ipywidgets`: examples of using `ipywidgets` and other packages to create
    interactive notebooks.
 1. `bash-python`: interacting with the system shell from within a notebook.
-1. `r_python.ipynb`: interacting with R from within a Python notebook.
-1. `slides.ipynb`: simple presentation using Jupyter notebooks, can be
-    used with `nbconvert` or RISE.
-1. `show_slides.sh`: Bash shell command to present `slides.ipynb`.        
+1. `r-python`: interacting with R from within a Python notebook.
