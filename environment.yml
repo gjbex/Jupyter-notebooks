@@ -1,0 +1,26 @@
+name: jupyter_notebooks
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - ipywidgets
+  - matplotlib
+  - bokeh
+  - pre-commit
+  - jupytext
+  - nbstripout
+  - nbdime
+  - numpy
+  - pandas
+  - r-base
+  - r-ggplot2
+  - ca-certificates
+  - certifi
+  - openssl
+  - r-irkernel
+  - bash_kernel
+  - altair
+  - scipy
+  - ipydatagrid
+  - rpy2
+prefix: /home/gjb/mambaforge/envs/jupyter_notebooks
