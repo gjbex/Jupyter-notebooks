@@ -12,6 +12,8 @@ Jupyter notebooks to illustrate various aspects and use cases for Jupyter notebo
    how to install the R kernel and R packages.
 1. `bash-notebooks`: use Bash notebooks using a Bash kernel in Jupyter Lab;
    contains instructions on how to install the Bash kernel.
+1. `ipywidgets`: examples of using `ipywidgets` and other packages to create
+   interactive notebooks.
 1. `bash_python.ipynb`: interacting with the system shell from within
     a notebook.
 1. `r_python.ipynb`: interacting with R from within a Python notebook.
