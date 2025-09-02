@@ -1,4 +1,11 @@
 repos:
+  - repo: https://github.com/mwouts/jupytext
+    rev: v1.16.0
+    hooks:
+      - id: jupytext
+        args: ["--sync"]
+        files: \.ipynb$
+
   # Strip outputs + execution counts from notebooks
   - repo: https://github.com/kynan/nbstripout
     rev: 0.7.1
