@@ -5,6 +5,7 @@ Jupyter notebooks to illustrate various aspects and use cases for Jupyter notebo
 
 ## What is it?
 
+1. `magic`: illustration of "magic" commands in Jupyter notebooks.
 1. `paired-notebooks`: configuration files for setting up paired notebooks,
    to facilitate version control.
 1. `r-notebooks`: use R notebooks using an R kernel in Jupyter Lab;

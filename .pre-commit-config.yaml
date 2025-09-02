@@ -4,6 +4,7 @@ repos:
     hooks:
       - id: jupytext
         args: ["--sync"]
+        files: \.ipynb$
 
   - repo: https://github.com/kynan/nbstripout
     rev: 0.7.1
