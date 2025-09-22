@@ -19,4 +19,5 @@ Jupyter notebooks to illustrate various aspects and use cases for Jupyter notebo
 1. `r-python`: interacting with R from within a Python notebook.
 1. `slides`: examples of creating slideshows from notebooks.
 1. `mypy`: example of using the `nb_mypy` package to check types in notebooks.
+1. `modules`: develop modules while interacting with them in a notebook.
 1. `latex`: examples of using LaTeX in notebooks.
