@@ -5,6 +5,9 @@
 .RData
 .Rhistory
 
+# direnv config
+.envrc
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
