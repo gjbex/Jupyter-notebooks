@@ -63,6 +63,8 @@ This training is for you if you need to use Jupyter notebooks.
 You will need experience programming in Python or R.  This is not a training that starts
 from scratch.  You should also be familiar with using the command line in Linux.
 
+### Software and access requirements
+
 For following along hands-on, you need
 * laptop or desktop with internet access and a Python interpreter, or
 * access to a JupyterHub server, e.g., Google Colab or Binder.
