@@ -63,6 +63,29 @@ This training is for you if you need to use Jupyter notebooks.
 You will need experience programming in Python or R.  This is not a training that starts
 from scratch.  You should also be familiar with using the command line in Linux.
 
+
+### Quick self-assessment
+
+If you can do most of the tasks below, you are likely ready for this training.
+
+* run a short Python or R script;
+* open a terminal and navigate to a working directory;
+* write a few lines of Python or R that define variables and call a function;
+* read a short error message from Python or R and identify roughly where the
+  problem occurred;
+* make a small change to a script or command and run it again;
+* explain the difference between code, text, and generated output in a
+  computational document.
+
+If several of these items still feel difficult, the training will probably move
+too fast. In that case, it is better to first refresh basic Python or R and
+basic command-line use.
+
+You do not need prior experience with JupyterLab itself, creating notebooks,
+adding Markdown or code cells, running cells, or managing notebook output. Those
+are demonstrated during the training.
+
+
 ### Software and access requirements
 
 For following along hands-on, you need
