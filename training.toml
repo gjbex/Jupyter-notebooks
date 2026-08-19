@@ -1,0 +1,160 @@
+schema_version = 2
+id = "jupyter-notebooks"
+title = "Jupyter notebooks"
+content_language = "en"
+summary = """
+Jupyter notebooks are a valuable tool for data analysis and exploration, as well as for exploratory programming. In this training you will learn how to use Jupyter notebooks effectively for visualization and experimenting. Jupyter notebooks can be used with multiple kernels for different programming languages, and it is also possible to mix different languages in a single notebook. You will also learn that Jupyter notebooks are not idealy suited for production environments, and you will learn how to convert notebooks to scripts.
+"""
+languages = ["Python", "R", "Bash"]
+
+[[learning_outcomes]]
+statement = "Be able to use notebooks for story telling, i.e., mixing code, text, visualizations, and equations."
+competencies = ["jupyter.compose-computational-narratives"]
+
+[[learning_outcomes]]
+statement = "Know some notebook magic."
+competencies = ["jupyter.use-magics-and-shell-integration"]
+
+[[learning_outcomes]]
+statement = "Be able to use various interactive visualization and animation libraries."
+competencies = ["jupyter.create-interactive-visualizations"]
+
+[[learning_outcomes]]
+statement = "Be able to pair notebooks with other formats to facilitate version control."
+competencies = ["jupyter.pair-notebooks-for-version-control"]
+
+[[learning_outcomes]]
+statement = "Be able to install and use kernels for Bash and R."
+competencies = ["jupyter.install-and-use-language-kernels"]
+
+[[learning_outcomes]]
+statement = "Know how to interact with the Bash shell from withing a Python notebook."
+competencies = ["jupyter.use-magics-and-shell-integration"]
+
+[[learning_outcomes]]
+statement = "Know how to interoperate between Python and R in a single notebook using `rpy2`."
+competencies = ["jupyter.interoperate-between-python-and-r"]
+
+[[learning_outcomes]]
+statement = "Be able to create a simple slide show from a notebook."
+competencies = ["jupyter.create-presentations"]
+
+[source]
+metadata_document = "docs/README.md"
+repository_url = "https://github.com/gjbex/Jupyter-notebooks/"
+website_url = "https://gjbex.github.io/Jupyter-notebooks/"
+license = "CC-BY-4.0"
+
+[delivery]
+duration_minutes = 180
+duration_kind = "fixed"
+session_count = 1
+target_session_duration_minutes = 180
+schedule_complete = true
+description = """
+Total duration: 3 hours.
+"""
+
+[audience]
+description = """
+This training is for you if you need to use Jupyter notebooks.
+"""
+
+[prerequisites]
+summary = """
+You will need experience programming in Python or R. This is not a training that starts from scratch. You should also be familiar with using the command line in Linux.
+"""
+competencies = ["command-line.navigate-filesystem", "command-line.run-or-compile-programs", "diagnostics.locate-problem", "computational-documents.distinguish-code-text-output"]
+
+[self_assessment]
+introduction = """
+If you can do most of the tasks below, you are likely ready for this training.
+"""
+tasks = [
+  "Run a short Python or R script.",
+  "Open a terminal and navigate to a working directory.",
+  "Write a few lines of Python or R that define variables and call a function.",
+  "Read a short error message from Python or R and identify roughly where the problem occurred.",
+  "Make a small change to a script or command and run it again.",
+  "Explain the difference between code, text, and generated output in a computational document."
+]
+
+[requirements]
+software = [
+  "Laptop or desktop with internet access and a Python interpreter, or.",
+  "Access to a JupyterHub server, e.g., Google Colab or Binder."
+]
+
+[level]
+introductory_percent = 60
+intermediate_percent = 30
+advanced_percent = 10
+
+[[materials]]
+kind = "examples"
+path = "examples"
+
+[[materials]]
+kind = "environment"
+path = "environment.yml"
+
+[[trainers]]
+name = "Geert Jan Bex"
+email = "geertjan.bex@uhasselt.be"
+
+[[maintainers]]
+name = "Geert Jan Bex"
+email = "geertjan.bex@uhasselt.be"
+
+[[sessions]]
+id = "session-1"
+title = "Session one"
+duration_minutes = 180
+
+[[sessions.items]]
+subject = "introduction and motivation"
+duration_minutes = 5
+
+[[sessions.items]]
+subject = "basics of notebooks"
+duration_minutes = 25
+
+[[sessions.items]]
+subject = "notebook magic"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "interaction and animation"
+duration_minutes = 30
+
+[[sessions.items]]
+subject = "pairing notebooks for version control"
+duration_minutes = 15
+
+[[sessions.items]]
+subject = "using the R kernel"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "using the Bash kernel"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "Bash in a Python notebook"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "R in a Python notebook"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "creating a slide show"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "JupyterHub"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "wrap up"
+duration_minutes = 5
